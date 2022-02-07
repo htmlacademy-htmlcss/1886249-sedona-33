@@ -14,9 +14,12 @@
 }
 body {
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 22px;
+  line-height: 26px;
   color: #242424;
   background-color: #fbf7f4;
+  text-align: center;
 }
 .navigation-item {
   font-weight: 700;
@@ -25,9 +28,18 @@ body {
   color: black;
   background-color: #ffffff;
 }
-.navigation-user-item-reserve {
-  color: #a39191;
+.navigation-link-button {
+  width: 160px;
+  height: 37px;
+  color: #FFFFFF;
+  background-color: #756257;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
+
 .main-index {
   background-image: url("images/main-background-1.jpg");
   background-color: #a39191;
@@ -93,5 +105,59 @@ color:#ffffff;
 }
 .advantages-title-no-tourists {
   background-color:rgba(131, 179, 211, 0.12);
+}
+.interested {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color:#000000;
+  text-transform: uppercase;
+}
+.mention-date{
+  color: #333333;
+  font-weight: 400;
+  text-align: center;
+}
+.button-search {
+  width: 575px;
+  height: 60px;
+  color: #FFFFFF;
+  background-color: #756257;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subscription {
+  background-image: url("images/main-background-2.jpg");
+  color: #FFFFFF;
+  background-color: #a39191;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.subscribe {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subscription-text {
+  font-size: 18px;
+}
+.button-submit {
+  width: 720px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer-contacts-address-phone {
+  color:#000000;
+  font-weight: 400px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
 }
 
