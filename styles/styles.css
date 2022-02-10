@@ -128,7 +128,7 @@ color:#ffffff;
   text-align: center;
   text-transform: uppercase;
 }
-.subscription {
+.subscription-main {
   background-image: url("images/main-background-2.jpg");
   color: #FFFFFF;
   background-color: #a39191;
@@ -160,4 +160,85 @@ color:#ffffff;
   line-height: 40px;
   text-align: center;
 }
-
+.inner-header {
+  background-image: url("images/catalog-background-1.jpg");
+  color: #FFFFFF;
+}
+.inner-header-title {
+font-weight: 700;
+font-size: 60px;
+line-height: 77,64px;
+}
+.breadcrumbs-item {
+font-size: 16px;
+line-height: 21px;
+}
+.hotels-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25,88px;
+}
+.control-input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23,29px;
+}
+.founded-hotels {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38,82px;
+  text-transform: uppercase;
+}
+.select-control {
+color: #333333;
+font-weight: 400;
+font-size: 18px;
+line-height: 23,39px;
+}
+.hotel-card-tittle {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31,06px;
+}
+.type-of-hotel  .prise {
+  color: #333333;
+font-weight: 400;
+font-size: 18px;
+line-height: 23,29px;
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20,7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button-about-hotel {
+  color: #FFFFFF;
+  background-color: #756257;
+}
+.button-add-hotel {
+ background-color: #83B3D3;
+}
+.button-rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20,7;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button-download-more-card {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subscribe-catalog {
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
