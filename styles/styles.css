@@ -61,6 +61,15 @@ h1 {
 .advantages {
   background-color: #83B3D3;
 }
+.advantages-item-accomodation {
+  background-image: url("images/icon-house-1.svg");
+}
+.advantages-item-food {
+  background-image: url("images/icon-burger-2.svg");
+}
+.advantages-item-souvenirs {
+  background-image: url("images/icon-gift-3.svg");
+}
 .advantages-item-white-reason {
 color: #ffffff ;
 }
@@ -169,6 +178,9 @@ font-weight: 700;
 font-size: 60px;
 line-height: 77,64px;
 }
+.breadcrumbs-link {
+background-image: url("image/home-breadcrumb.svg");
+}
 .breadcrumbs-item {
 font-size: 16px;
 line-height: 21px;
@@ -241,4 +253,13 @@ line-height: 23,29px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+}
+.twitter {
+  background-image: url("images/Vector-twitter.svg");
+}
+.facebook {
+  background-image: url("images/Vector-facebook.svg");
+}
+.youtube {
+  background-image: url("images/Vector-youtube-2.svg");
 }
