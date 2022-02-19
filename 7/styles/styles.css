@@ -15,6 +15,10 @@
 html {
   height: 100%;
 }
+.page-header {
+  background-color: #FFFFFF;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -62,10 +66,12 @@ margin-right: auto;
 }
 
 .main-index {
-  background-image: url("images/main-background-1.jpg");
   background-color: #a39191;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.welcome {
+  background-image: url("images/main-background-1.jpg");
 }
 .slogan {
  text-align: center;
@@ -81,8 +87,6 @@ h1 {
 }
 .advantages {
   background-color: #83B3D3;
-}
-.advantages-list {
   display: flex;
   justify-content: space-between;
 }
@@ -291,4 +295,17 @@ line-height: 23,29px;
 .sedona-logo {
   margin-right: 30px;
   margin: 0;
+}
+.page-footer {
+  display: flex;
+  background-color: #FFFFFF;
+}
+.footer-social-list {
+  margin-right: auto;
+}
+.footer-logo {
+  margin-left: auto;
+}
+.footer-contacts-address-phone {
+  margin: auto;
 }
