@@ -12,7 +12,19 @@
   src: url(.../fonts/pt-sans-bold.woff2) format("woff2");
   font-display: swap;
 }
+html {
+  height: 100%;
+}
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 22px;
@@ -20,7 +32,6 @@ body {
   color: #242424;
   background-color: #fbf7f4;
   text-align: center;
-  margin: 0;
 }
 .navigation-item {
   font-weight: 700;
