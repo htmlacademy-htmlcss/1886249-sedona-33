@@ -15,11 +15,6 @@
 html {
   height: 100%;
 }
-.navigation {
-  display: flex;
-  width: 1060px;
-  margin: 0 auto;
-}
 body {
   margin: 0;
   display: flex;
@@ -33,6 +28,20 @@ body {
   background-color: #fbf7f4;
   text-align: center;
 }
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+.navigation-list {
+width: 345px;
+margin-right: auto;
+}
+.navigation-user {
+  width: 264px;
+  margin-left: auto;
+}
+
 .navigation-item {
   font-weight: 700;
   font-size: 20px;
@@ -72,6 +81,10 @@ h1 {
 }
 .advantages {
   background-color: #83B3D3;
+}
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
 }
 .advantages-item-accomodation {
   background-image: url("images/icon-house-1.svg");
