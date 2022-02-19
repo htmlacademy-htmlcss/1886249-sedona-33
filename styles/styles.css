@@ -17,10 +17,13 @@ html {
 }
 .page-header {
   background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -99,8 +102,12 @@ h1 {
 .advantages-item-souvenirs {
   background-image: url("images/icon-gift-3.svg");
 }
-.advantages-item-white-reason {
+.advantages-item-first-reason {
 color: #ffffff ;
+width: 400px;
+}
+.advantages-item-accomodation {
+  width: 400px;
 }
 .advantages-title {
   text-align: center;
@@ -108,6 +115,9 @@ color: #ffffff ;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+}
+.advantages-item-food {
+  width: 400px;
 }
 .number {
   text-align: center;
