@@ -94,6 +94,7 @@ h1 {
   width: 1200px;
   background-color: #83B3D3;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .advantages-item-accomodation {
@@ -171,6 +172,7 @@ color:#ffffff;
   background-color: #FFFFFF;
 }
 .mention-date {
+  margin: auto;
   width: 720px;
   color: #333333;
   font-weight: 400;
@@ -196,6 +198,9 @@ color:#ffffff;
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.subscription-form {
+width: 600px;
+}
 .interested {
   font-weight: 700;
   text-align: center;
@@ -205,8 +210,8 @@ color:#ffffff;
   font-size: 18px;
 }
 .button-submit {
-  width: 720px;
-  height: 40px;
+  width: 200px;
+  height: 61px;
   color: #FFFFFF;
   background-color: #83B3D3;
   font-weight: 700;
