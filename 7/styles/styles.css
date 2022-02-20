@@ -113,7 +113,13 @@ width: 400px;
 .advantages-item-accomodation {
   width: 400px;
 }
+.number {
+  width: 400px;
+  height: 384px;
+}
 .advantages-title {
+  width: 400px;
+  height: 384px;
   text-align: center;
   font-weight: 700;
   font-size: 24px;
