@@ -94,6 +94,8 @@ h1 {
 .advantages {
   width: 1200px;
   background-color: #83B3D3;
+}
+.advantages-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -107,16 +109,19 @@ h1 {
 }
 .advantages-item-food {
   background-image: url("images/icon-burger-2.svg");
+  background-color: #FFFFFF;
 }
 .advantages-item-souvenirs {
   background-image: url("images/icon-gift-3.svg");
+  background-color: rgba(131, 179, 211, 0.12);
 }
 .advantages-item-first-reason {
 color: #ffffff ;
 width: 400px;
+background-color: #83B3D3;
 }
 .advantages-item-accomodation {
-  width: 400px;
+  background: rgba(131, 179, 211, 0.12);
 }
 .advantages-title {
   text-align: center;
@@ -124,9 +129,6 @@ width: 400px;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-}
-.advantages-item-food {
-  width: 400px;
 }
 .number {
   text-align: center;
@@ -144,15 +146,6 @@ color:#ffffff;
   font-size: 18px;
   line-height: 21px;
   color:#333333;
-}
-.advantages-item-accomodation {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-.advantages-item-food {
-  background-color: #FFFFFF;
-}
-.advantages-item-souvenirs {
-  background-color: rgba(131, 179, 211, 0.12);
 }
 .advantages-title-square {
   background-color: rgba(131, 179, 211, 0.12);
@@ -197,6 +190,8 @@ color:#ffffff;
   background-color: #FFFFFF;
 }
 .subscription-main {
+  width: 1200px;
+  height: 411px;
   background-image: url("images/main-background-2.jpg");
   color: #FFFFFF;
   background-color: #a39191;
@@ -205,6 +200,7 @@ color:#ffffff;
 }
 .subscription-form {
 width: 600px;
+margin: auto;
 }
 .interested {
   font-weight: 700;
