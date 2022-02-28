@@ -99,6 +99,7 @@ h1 {
 }
 .advantages-list {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
