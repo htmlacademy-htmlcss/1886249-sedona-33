@@ -45,10 +45,12 @@ body {
   margin: 0 auto;
 }
 .navigation-list {
-width: 345px;
-margin-right: auto;
+  display: flex;
+  width: 345px;
+  margin-right: auto;
 }
 .navigation-user {
+  display: flex;
   width: 264px;
   margin-left: auto;
 }
@@ -338,6 +340,7 @@ line-height: 23,29px;
   background-color: #FFFFFF;
 }
 .footer-social-list {
+  display: flex;
   margin-right: auto;
 }
 .footer-logo {
