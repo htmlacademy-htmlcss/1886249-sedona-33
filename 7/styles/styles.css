@@ -38,7 +38,9 @@ body {
   text-align: center;
 }
 .navigation {
-  display: flex;
+  display: grid;
+  grid-template-columns: 139px 345px 264px;
+  column-gap: 30px 282px;
   width: 1060px;
   margin: 0 auto;
 }
@@ -82,6 +84,7 @@ margin-right: auto;
 }
 .slogan {
   width: 720px;
+  margin: 0 auto;
  text-align: center;
  font-weight: 700;
  font-size: 30px;
@@ -329,7 +332,9 @@ line-height: 23,29px;
   margin: 0;
 }
 .page-footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 107px 720px 115px;
+  column-gap: 61px 53px;
   background-color: #FFFFFF;
 }
 .footer-social-list {
